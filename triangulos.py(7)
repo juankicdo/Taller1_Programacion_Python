@@ -1,0 +1,13 @@
+def main():
+    a = int(input("Ingrese la medida del primer lado: "))
+    b = int(input("Ingrese la medida del segundo lado: "))
+    c = int(input("Ingrese la medida del tercer lado: "))
+
+    if a == b and b == c:
+        print("El triángulo es equilátero.")
+    elif a == b or a == c or b == c:
+        print("El triángulo es isósceles.")
+    else:
+        print("El triángulo es escaleno.")
+
+main()
