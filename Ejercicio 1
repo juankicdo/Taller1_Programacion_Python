@@ -1,0 +1,12 @@
+jugadorA = int(input("Juegos ganados por A: "))
+jugadorB = int(input("Juegos ganados por B: "))
+if jugadorA >= 6 and jugadorA - jugadorB >= 2:
+    print("Ganó A")
+elif jugadorB >= 6 and jugadorB - jugadorA >= 2:
+    print("Ganó B")
+elif jugadorA == 5 and jugadorB == 5:
+    print("Aún no termina")
+elif jugadorA == 6 and jugadorB == 6:
+    print("Aún no termina")
+else:
+    print("Inválido")
