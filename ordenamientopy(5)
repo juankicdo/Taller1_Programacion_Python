@@ -1,0 +1,25 @@
+a = int(input("Ingrese número 1: "))
+b = int(input("Ingrese número 2: "))
+c = int(input("Ingrese número 3: "))
+d = int(input("Ingrese número 4: "))
+if a > b:
+    a = a + b
+    b = a - b
+    a = a - b
+if c > d:
+    c = c + d
+    d = c - d
+    c = c - d
+if a > c:
+    a = a + c
+    c = a - c
+    a = a - c
+if b > d:
+    b = b + d
+    d = b - d
+    b = b - d
+if b > c:
+    b = b + c
+    c = b - c
+    b = b - c
+print("Números ordenados:", a, b, c, d)
